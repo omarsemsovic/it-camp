@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+
+.main {
+    width: 400px;
+    width: 300px;
+    background-color: rgb(0, 209, 251);
+    /* border: 3px solid rgb(255, 0, 0);  */
+    border-radius: 10px;
+    /* padding: 30px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    margin: 10px 20px 30px 40px;
+    ako imamo 4 vrednosti za svojstvo marging ili padding svatanje css je sledece 
+    1 vrednost se odnosi na marging top 
+    2 vrednost se odnosi na marging right: ;
+    3 vrednost se odnosi na marging bottom:  */
+    /* 4 vrednost se odnosi na marging left:  */
+    /* 1.vrednost se odnosi na margin-top i margin-bottom */
+    /* 2 vrednost se odnosi na margin left i rgiht */
+    /* margin: 10px 20px 30px */
+    
+    padding: 20px 7px 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 9px rgb(rgb(172, 0, 240), rgb(255, 179, 1), rgb(6, 240, 166))
+
+}
+
+
+button{
+    padding: 10px;
+    margin-left: 500px;
+
+}
