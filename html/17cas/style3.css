@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    width: 85%;
+    height: 250px;
+    display: flex;
+    background-color: blanchedalmond;
+    gap: 3rem;
+}
+
+img {
+    width: 35%;
+    height: 250px;
+    cursor: pointer;
+}
