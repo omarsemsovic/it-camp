@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 15vh;
+    background-color: aqua;
+
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    top: 1rem;
+    position: relative;
+    left: 2rem;
+}
+.header {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    position: relative;
+    top: 1.4rem;
+}
+
+.cardcard1 {
+    color: black;
+    width: 40%;
+    height: 80%;
+}
