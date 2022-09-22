@@ -1,0 +1,38 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    background-color: #cdcdcd;
+  }
+
+  img {
+    top: 1rem;
+    bottom: 1rem;
+    width: 90vh;
+    height: 85vh;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  .top-left {
+
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
