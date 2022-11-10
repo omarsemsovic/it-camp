@@ -82,19 +82,3 @@ for (let broj = 2; broj <= 20; broj += 2) {
 // Ispisati dvostruku vrednost prirodnih brojeva od 6 do 14.
 // 4.
 // Suma neparnih prirodnih brojeva od 10 do 20.
-
-
-// Domaci zadaci:
-// 1.
-// Napisati program koji na osnovu dva uneta broja od strane korisnika ispisuje:
-// Povrsinu kvadrata ako su uneti brojevi jednaki,
-// Povrsinu pravougaonika ako su uneti brojevi razliciti.
-
-// 2. Zadatak
-// Korisnik unosi dva realna broja x i y. Napisati program koji izracunava i stampa
-// kolicnik x/y, ako je broj y razlicit od nule,
-// a inace ispisuje poruku: Deljenje je nemoguce.
-
-// Za proveru da li je vrednost nekog broja NaN se koristi metoda:
-// isNaN(vrednost)
-

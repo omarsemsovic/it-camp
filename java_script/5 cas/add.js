@@ -1,24 +1,28 @@
-// internacija sa korisnikom //
 
-// prompt() metoda nam sluyi ya komunikaciju sa korisnikom.
+// INTERAKCIJA SA KORISNIKOM //
 
-const Ime = prompt("unesite vase ime: ");
-console.log(Ime);
-//sve sto korisnik unese je tipa string//
-const godine = prompt ("unesite svoju  starost: ");
+// prompt() metoda nam sluzi za komunikaciju sa korisnikom.
+
+const ime = prompt("Unesite vase ime: ");
+console.log(ime);
+
+// Sve sto korisnik unese je tipa string.
+const godine = prompt("Unesite svoju starost: ");
 console.log(godine);
 console.log(typeof godine);
-//sad je neophodno godine prevesti u broj:
+// Sad je neophodno godine prevesti u broj:
 
-//1. number(promenjiva)
-const brgodina = Number(godine);
-console.log(brgodina);
-console.log(typeof godine);
+// Postoje 2 nacina za prevodjenje stringa u broj:
 
-//2. promenjiva
-const brgodina2 = +godine;
-console.log(brgodina2);
-console.log(typeof brgodina2);
+// 1.  Number(promenljiva)
+const brGodina = Number(godine);
+console.log(brGodina);
+console.log(typeof brGodina);
 
-const visina = +prompt("unesite svoju visinu u cm: ")
+// 2. +promenljiva
+const brGodina2 = +godine;
+console.log(brGodina2);
+console.log(typeof brGodina2);
+
+const visina = +prompt("Unesite svoju visinu u cm: ");
 console.log(visina);
