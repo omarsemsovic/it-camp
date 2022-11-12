@@ -1,4 +1,3 @@
-
 // 1. var
 var x; // deklarisanje promenljive x (obezbedjivanje lokacijske memorije za promenljivu x)
 x = 15; // inicijalizacija promenljive x (dodela vrednosti vec deklarisanoj promenljivoj x)
