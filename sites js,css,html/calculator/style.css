@@ -1,4 +1,4 @@
-/* html {
+html {
     box-sizing: border-box;
     height: 100%;
 }
@@ -13,7 +13,7 @@
 
 body{
     align-items: center;
-    background: linear-gradient(320deg, #eb92be, #ffef78,
+    background: linear-gradient(320deg, #56C6A9, #EDF1FF,
     #63c9b4);
     display: flex;
     font-family: 'dosis', sans-serif;
@@ -79,7 +79,7 @@ body{
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     color: #fff;
-    background: #d72880;
+    background: #95DEE3;
 }
 
 .calc-button:last-child:hover{
@@ -92,7 +92,7 @@ body{
 }
 
 .calc-button:active{
-    background-color: #ffef78;
+    background-color: #95DEE3;
 }
 
 .double{
@@ -101,4 +101,4 @@ body{
 
 .triple{
     flex-basis: 74%;
-} */
+}
